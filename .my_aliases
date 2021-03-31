@@ -8,4 +8,7 @@ alias up4='cd ../../../..'
 alias up5='cd ../../../../..'
 alias bye=exit
 alias ciao=exit
+
+# GIT
 alias g='git'
+alias gstate='git fetch --prune ; git fetch --tags ; git status'

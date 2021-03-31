@@ -1,16 +1,17 @@
 [alias]
   s = status -sb
-  state='git fetch --prune ; git fetch --tags ; clear && git branch -vv && git status'
+  st = status -sb
   d = diff
   co = checkout
+  cob = checkout -b
   br = branch
   last = log -1 HEAD
   cane = commit --amend --no-edit
   lo = log --oneline -n 10
   pr = pull --rebase
-  rh='git reset --hard'
-  remotes='git remote -v'
-  fetchall='git fetch --all'
+  rh=reset --hard
+  remotes=remote -v
+  fetchall=fetch --all
 [user]
 	email = franckg.mail@free.fr
 	name = Franck Grenier
