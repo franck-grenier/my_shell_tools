@@ -15,7 +15,7 @@ ln -s ./my_shell_tools/.my_aliases &&
 ln -s ./my_shell_tools/.gitconfig
 ```
 
-# Change shell
+## Change shell
 
 `chsh -s $(which zsh)`
 
