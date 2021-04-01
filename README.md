@@ -1,5 +1,11 @@
 # Installation
 
+## Oh My Zsh
+
+`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+## My tools
+
 ```
 git clone git@github.com:franck-grenier/my_shell_tools.git ~/ &&
 mv ~/.bashrc ~/bashrc_save &&
