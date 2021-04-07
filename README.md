@@ -9,6 +9,7 @@
 ```
 git clone git@github.com:franck-grenier/my_shell_tools.git ~/my_shell_tools &&
 mv ~/.bashrc ~/bashrc_save &&
+mv ~/.zshrc ~/zshrc_save &&
 ln -s ./my_shell_tools/.zshrc && 
 ln -s ./my_shell_tools/.bashrc &&
 ln -s ./my_shell_tools/.my_aliases &&
