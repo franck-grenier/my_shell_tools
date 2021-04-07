@@ -7,7 +7,7 @@
 ## My tools
 
 ```
-git clone git@github.com:franck-grenier/my_shell_tools.git ~/ &&
+git clone git@github.com:franck-grenier/my_shell_tools.git ~/my_shell_tools &&
 mv ~/.bashrc ~/bashrc_save &&
 ln -s ./my_shell_tools/.zshrc && 
 ln -s ./my_shell_tools/.bashrc &&
