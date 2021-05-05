@@ -12,3 +12,10 @@ alias ciao=exit
 # GIT
 alias g='git'
 alias gstate='git fetch --prune ; git fetch --tags ; git status'
+
+# LARAVEL
+alias sail='bash vendor/bin/sail'
+alias clearlogs='truncate -s 0 $(git rev-parse --show-toplevel)/storage/logs/*.log'
+
+# DOCKER
+alias dockerstopall='docker stop $(docker ps -q)'
