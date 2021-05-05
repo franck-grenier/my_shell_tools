@@ -12,3 +12,6 @@ alias ciao=exit
 # GIT
 alias g='git'
 alias gstate='git fetch --prune ; git fetch --tags ; git status'
+
+# LARAVEL
+alias sail='bash vendor/bin/sail'
