@@ -15,3 +15,5 @@
 [user]
 	email = dev@franck-grenier.fr
 	name = Franck Grenier
+[rerere]
+	enabled = 1
