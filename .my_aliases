@@ -19,3 +19,5 @@ alias clearlogs='truncate -s 0 $(git rev-parse --show-toplevel)/storage/logs/*.l
 
 # DOCKER
 alias dockerstopall='docker stop $(docker ps -q)'
+alias dockerlistenlocal='sudo dockerd -H tcp://0.0.0.0:2375'
+alias docker-compose='docker compose'

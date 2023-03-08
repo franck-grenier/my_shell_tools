@@ -13,7 +13,9 @@
   remotes=remote -v
   fetchall=fetch --all
 [user]
-	email = dev@franck-grenier.fr
+	email = franck.grenier@jurihub.fr
 	name = Franck Grenier
 [rerere]
-	enabled = 1
+	enabled = true
+[core]
+	autocrlf = input

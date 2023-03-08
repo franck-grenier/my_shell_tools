@@ -140,6 +140,3 @@ _complete_ssh_hosts ()
 }
 
 complete -F _complete_ssh_hosts ssh
-
-
-
